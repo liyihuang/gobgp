@@ -16,10 +16,10 @@ Router-ID: 10.0.0.1
 Listening Port: 179, Addresses: 0.0.0.0, ::
 -------
 gobgp neighbor add 192.168.2.1 as 64513
-(⎈|N/A:N/A)~/repo/liyi/gobgp gobgp neighbor
+(⎈|N/A:N/A)~/repo/liyi/gobgp neighbor
 Peer           AS  Up/Down State       |#Received  Accepted
 192.168.2.1 64513 00:00:24 Establ      |        2         2
-(⎈|N/A:N/A)~/repo/liyi/gobgp gobgp global rib
+(⎈|N/A:N/A)~/repo/liyi/gobgp global rib
    Network              Next Hop             AS_PATH              Age        Attrs
 *> 24.57.254.0/24       192.168.2.1          64513                00:00:03   [{Origin: ?}]
 *> 192.168.2.0/24       192.168.2.1          64513                00:00:03   [{Origin: ?}]
